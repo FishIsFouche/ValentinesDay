@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Redressed', cursive;
+    font-size: 40px;
+  }
+
+  /*Content*/
+  h1{
+      text-align: center;
+      font-size: 50px;
+      color: turquoise;
+      margin-top: 50px;
+      font-style: bold;
+  }
+  p{
+    text-align: center;
+    font-size: 40px;
+    color: turquoise; 
+    font-style: bold;
+  }

@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Redressed', cursive;
+    font-size: 40px;
+  }
+
+  /*Content*/
+  h1{
+      text-align: center;
+      font-size: 50px;
+      color: turquoise;
+      margin-top: 50px;
+  }
+  p{
+    text-align: center;
+    font-size: 40px;
+    color: turquoise; 
+  }
+  .container{
+      padding: 50px;
+      background-color: rgb(142, 226, 142);
+      border-radius: 20px;
+  }
+
+/* Style the submit button with a specific background color etc */
+#Submit{
+    background-color: grey;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 40px;
+  }
+  
+/* When moving the mouse over the submit button, add a darker green color */
+#Submit:hover {
+    background-color: turquoise;
+    transition: 0.5s;
+  }
+
+input[type=text], select{
+    width: 100%; 
+    padding: 15px;  
+    border: 1px solid #ccc; 
+    border-radius: 20px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }

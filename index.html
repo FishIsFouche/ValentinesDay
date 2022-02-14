@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/tabicon.jpg">
+    <title>Valentines Day</title>
+</head>
+<body>
+    <section class="main">
+        <!--Content-->
+        <h1>Happy Valentines Day</h1>
+        <p>Just a fun little questionnaire, because I know you just love being tested :)</p>
+
+        <div class="container">
+            <form action="https://formsubmit.co/fouchevandenberg@gmail.com" method="POST">
+                <input type="hidden" name="_next" value="answers.html">
+                <!--Question 1-->
+                <label for="Qone">1)State whether the following statement is true or false. "Megan Loves Olives"</label>
+                <select id="Qone" name="olives">
+                 <option value="False">False</option>
+                 <option value="True">True</option>
+                </select>
+                <p id="OneAnswer"></p>
+
+                 <!--Question 2-->
+                <label for="Qtwo">2)Choose one of the options below. What does Mcdonalds fries dipped in Orea Mcflurry taste like?</label>
+                <select id="Qtwo" name="waffles">
+                  <option value="Pancakes">Pancakes</option>
+                  <option value="Olives">Olives</option>
+                  <option value="Bubblegum">Bubblegum</option>
+                  <option value="Lemoncreams">Lemon Creams :)</option>
+                  <option value="Waffles">Waffles</option>
+                </select>
+                <p id="TwoAnswer"></p>
+
+                <!--Question 3-->
+                <label for="Qthree">3)Choose one of the options below. What is Fouche's Favourite snack in the entire world</label>
+                <select name="Lemony" id="Qthree">
+                    <option value="Lemon Chicken and rice">Stupidly Lemony Chicken and Rice from Tashas</option>
+                    <option value="Lemon Creams">Lemon creams</option>
+                    <option value="Lemon Creams">Lemon Flavoured Biltong</option>
+                    <option value="Lemon Creams">Just a lemon :)</option>
+                </select>
+                <p id="ThreeAnswer"></p>
+
+                <!--Question 4-->
+                <label for="QFour">4)Choose one of the options below. Megans Favourite Season?</label>
+                <select name="Seasons" id="QFour">
+                    <option value="Season?">What is a season?</option>
+                    <option value="Winter">Winter</option>
+                    <option value="4Seasons">Four Seasons wine</option>
+                    <option value="Rain">Rain :)</option>
+                </select>
+                <p id="FourAnswer"></p>
+
+                <!--Question 5-->
+                <label for="QFive">5)Choose an option below. What is Megans doggo's names?</label>
+                <select name="Doggies" id="QFive">
+                    <option value="TrumpHilary">Trump and Hilary</option>
+                    <option value="J&S">Jade and Spike</option>
+                    <option value="Treats">Pup Tart and Dogzilla</option>
+                    <option value="Lemon Creams and Olives">Lemon Creams and Olives</option>
+                    <option value="B&P">Bubblegum and Peppermint</option>
+                </select>
+                <p id="FiveAnswer"></p>
+                
+                <!--Question 6-->
+                <label for="QSix">Final Question, no right or wrong answer here. Will you be my valentine?</label>
+                <select name="Valentine" id="QSix">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                
+                <button type="submit" id="Submit">Submit Answers</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
